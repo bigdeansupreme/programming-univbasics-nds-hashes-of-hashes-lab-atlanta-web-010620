@@ -31,6 +31,13 @@
 # }
 
 def naming_system
-  bio_hash = {}
+  bio_hash = {label: "Kingdom",
+   sub_category: {
+     label: "Phylum",
+     sub_category: {
+       label: "Class"
+     }
+   }
+  }
 
 end
